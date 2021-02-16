@@ -1,0 +1,157 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 214, 235
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "壁纸下载器"
+MENU IDR_MENU1
+FONT 10, "微软雅黑", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,7,200,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,7,24,200,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "多线程下载",IDC_BUTTON1,7,214,200,14
+    EDITTEXT        IDC_EDIT3,7,41,200,169,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 207
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 228
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "user.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "壁纸类型"
+    BEGIN
+        MENUITEM "风景",                          ID_40001
+        MENUITEM "动物",                          ID_40002
+        MENUITEM "花卉",                          ID_40003
+        MENUITEM "建筑",                          ID_40004
+        MENUITEM "汽车",                          ID_40005
+        MENUITEM "影视",                          ID_40006
+        MENUITEM "美女",                          ID_40007
+        MENUITEM "人物",                          ID_40008
+        MENUITEM "静物",                          ID_40009
+        MENUITEM "美食",                          ID_40010
+        MENUITEM "系统",                          ID_40011
+        MENUITEM "设计",                          ID_40012
+        MENUITEM "游戏",                          ID_40013
+        MENUITEM "体育",                          ID_40014
+        MENUITEM "品牌",                          ID_40015
+        MENUITEM "动漫",                          ID_40016
+        MENUITEM "手绘",                          ID_40017
+        MENUITEM "矢量",                          ID_40018
+        MENUITEM "炫彩",                          ID_40019
+        MENUITEM "节庆",                          ID_40020
+        MENUITEM "日历",                          ID_40021
+    END
+    POPUP "程序设定"
+    BEGIN
+        MENUITEM "保存路径",                        ID_40022
+    END
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
